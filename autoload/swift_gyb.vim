@@ -26,7 +26,7 @@
 
 " initialize "{{{
 
-let s:swift_gyb_bin = 'gyb'
+let g:swift_gyb_bin = 'gyb'
 
 "}}}
 
