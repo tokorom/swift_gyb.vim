@@ -34,7 +34,7 @@ let g:swift_gyb_bin = 'gyb'
 
 function! swift_gyb#gyb() "{{{
   let l:tempname = tempname()
-  exe "!" . expand(s:swift_gyb_bin) . " "  . expand("%:p") . " > " . expand(l:tempname)
+  exe "!" . expand(g:swift_gyb_bin) . " "  . expand("%:p") . " > " . expand(l:tempname)
   exe "tabnew " . expand(l:tempname)
   setf swift
 endfunction "}}}
