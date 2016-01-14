@@ -1,4 +1,4 @@
-# swift.gyb.vim
+# swift_gyb.vim
 Convert XXX.swift.gyb to XXX.swift
 
 ## Usage
