@@ -1,6 +1,8 @@
 # swift_gyb.vim
 Convert XXX.swift.gyb to XXX.swift
 
+![GYB Sample](https://raw.githubusercontent.com/tokorom/swift_gyb.vim/assets/sample.png)
+
 ## Usage
 
 ```vim
