@@ -26,7 +26,9 @@
 
 " initialize "{{{
 
-let g:swift_gyb_bin = 'gyb'
+if !exists('g:swift_gyb_bin')
+  let g:swift_gyb_bin = 'gyb'
+endif
 
 "}}}
 
